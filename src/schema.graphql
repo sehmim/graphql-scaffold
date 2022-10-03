@@ -1,0 +1,5 @@
+type BlogModel @model = {
+    id: !String,
+    title: !String,
+    body: !String
+}

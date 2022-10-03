@@ -1,0 +1,22 @@
+{
+  "main": "src/index.ts",
+  "type": "module",
+  "dependencies": {
+    "@graphql-yoga/common": "^2.12.12",
+    "chalk": "^5.0.1",
+    "faunadb": "^4.7.0",
+    "fs-extra": "^10.1.0",
+    "inquirer": "^9.1.2",
+    "nanospinner": "^1.1.0",
+    "node-fetch": "^2.6.1",
+    "ts-node": "^10.9.1",
+    "yeoman-generator": "^5.7.0"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.2",
+    "yo": "^4.3.0"
+  },
+  "scripts": {
+    "config": "ts-node --esm src/configFauna.js"
+  }
+}
