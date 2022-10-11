@@ -6,3 +6,10 @@ usage_model = ''
 compatibility_flags = []
 workers_dev = true
 compatibility_date = "2022-10-02"
+
+
+
+[vars]
+FAUNA_SECRET = "poo"
+FAUNA_DOMAIN = "asfsd"
+  

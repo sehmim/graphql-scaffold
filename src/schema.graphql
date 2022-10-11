@@ -1,5 +1,12 @@
-type BlogModel @model = {
-    id: !String,
-    title: !String,
-    body: !String
+# Definition
+directive @unique on FIELD_DEFINITION
+
+type User {
+    id: ID!
+    name: String
+    email: String @unique
+}
+
+type Query {
+    getUser(id: ID!): User 
 }
